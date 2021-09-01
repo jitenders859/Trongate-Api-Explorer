@@ -1,0 +1,13 @@
+{
+    "Get": {
+        "url_segments": "api/get/cars",
+        "request_type": "GET",
+        "description": "Fetch rows from Cars table",
+        "enableParams": true,
+        "authorization": {
+            "roles": [
+                "admin"
+            ]
+        }
+    }
+}
